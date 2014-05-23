@@ -263,7 +263,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15
+    windowsmgr.max_events_per_sec=150 \
+    wifi.supplicant_scan_interval=180
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
