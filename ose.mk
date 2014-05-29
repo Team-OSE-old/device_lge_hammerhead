@@ -23,15 +23,15 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/ose/config/nfc_enhanced.mk)
 
 # phone
-$(call inherit-product, vendor/liquid/config/common_phone.mk)
+$(call inherit-product, vendor/ose/config/common_full_phone.mk)
 
 # product
 PRODUCT_DEVICE := hammerhead
 PRODUCT_BRAND := Google
-PRODUCT_NAME := liquid_hammerhead
+PRODUCT_NAME := ose_hammerhead
 PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.hammerhead.$(shell date +%m%d%y).$(shell date +%H%M%S)
