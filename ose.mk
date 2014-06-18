@@ -38,9 +38,9 @@ PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.hammerhead.$(shell date +%m%d
 
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_NUMBER=893803 \
+    BUILD_NUMBER=1158763 \
     PRODUCT_NAME=hammerhead \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="hammerhead-user 4.4.2 KOT49H 937116 release-keys" \
-    BUILD_FINGERPRINT="google/hammerhead/hammerhead:4.4.2/KOT49H/937116:user/release-keys"
+    PRIVATE_BUILD_DESC="hammerhead-user 4.4.3 KTU84M 1158763 release-keys" \
+    BUILD_FINGERPRINT="google/hammerhead/hammerhead:4.4.3/KTU84M/1158763:user/release-keys"
