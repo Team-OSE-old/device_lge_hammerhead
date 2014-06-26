@@ -107,8 +107,7 @@ BOARD_SEPOLICY_DIRS := \
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := liquid_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
-TARGET_GCC_VERSION_ARM := 4.10-sm
-TARGET_GCC_VERSION_AND := 4.8-sm
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := sm-arm-eabi-4.10
 
 # The list below is order dependent
 BOARD_SEPOLICY_UNION := \
