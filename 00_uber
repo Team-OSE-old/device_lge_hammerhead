@@ -31,3 +31,13 @@ echo "1000" > /proc/sys/vm/dirty_writeback_centisecs
 # Default for dirty_expire_centisecs is 200
 
 echo "500" > /proc/sys/vm/dirty_expire_centisecs
+
+# Set Default CPU Governor: Accetable values are adaptive, badass, intelliactive, dancedance, wheatley, smartasH3, abyssplugv2, ondemandplus, intellidemand, interactive, conservative, userspace, powersave, lionheart, ondemand, performance.
+echo "1" > /sys/devices/system/cpu/cpu0/online;
+echo "uberdemand" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor;
+echo "1" > /sys/devices/system/cpu/cpu1/online;
+echo "uberdemand" > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor;
+echo "1" > /sys/devices/system/cpu/cpu2/online;
+echo "uberdemand" > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor;
+echo "1" > /sys/devices/system/cpu/cpu3/online;
+echo "uberdemand" > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor;
