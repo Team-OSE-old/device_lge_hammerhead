@@ -108,7 +108,7 @@ BOARD_SEPOLICY_DIRS := \
 TARGET_KERNEL_CONFIG := liquid_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 TARGET_GCC_VERSION_ARM := 4.10-sm
-TARGET_GCC_VERSION_AND := 4.8-sm
+TARGET_GCC_VERSION_AND := 4.7-sm
 
 # The list below is order dependent
 BOARD_SEPOLICY_UNION := \
