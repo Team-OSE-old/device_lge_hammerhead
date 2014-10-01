@@ -1,14 +1,12 @@
 [
  {
-   "remote": "gh",
    "repository": "LiquidSmooth-Devices/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "revision": "kitkat"
+   "branch": "kitkat"
  },
  {
-   "remote": "ls",
-   "repository": "proprietary_vendor_lge",
+   "repository": "LiquidSmooth/proprietary_vendor_lge",
    "target_path": "vendor/lge",
-   "revision": "kitkat"
+   "branch": "kitkat"
  }
 ]
